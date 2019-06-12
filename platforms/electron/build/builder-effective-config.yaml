@@ -1,0 +1,15 @@
+directories:
+  output: 'E:\onedrive\projects\bitbucket\boilerplate\platforms\electron\build'
+  buildResources: 'E:\onedrive\projects\bitbucket\boilerplate\platforms\electron\build-res'
+  app: 'E:\onedrive\projects\bitbucket\boilerplate\platforms\electron\www'
+appId: io.cordova.hellocordova
+productName: HelloCordova
+electronVersion: 4.0.1
+electronDownload:
+  version: 4.0.1
+win:
+  icon: installer.png
+  target:
+    - target: nsis
+      arch:
+        - x64

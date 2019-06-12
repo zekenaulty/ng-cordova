@@ -1,0 +1,1 @@
+This boiler plate provides Angular and Cordova integration out of the gate. Angular workspace has no Apps/Modules and is setup to run build to Cordova workspace.
