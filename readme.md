@@ -6,4 +6,4 @@ This boiler plate was built using: https://medium.com/@nacojohn/convert-your-ang
 
 When I say loose, I mean I didn't actually read this, but skimmed it for fact checking... key points are the device ready hook and final steps of setup to configure build path
 
-You will need to run: "ng g application MyApp" as this boiler plate only provides a angular workspace with integrated cordova.
+You will need to run: "ng g application MyApp" as this boiler plate only provides an angular workspace with integrated cordova.
