@@ -1,0 +1,53 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "version": 1,
+  "newProjectRoot": "projects",
+  "projects": {},
+  schematics": {
+  "@schematics/angular:component": {
+    "changeDetection": "Default",
+    "export": false,
+    "flat": false,
+    "inlineStyle": false,
+    "inlineTemplate": false,
+    "module": "",
+    "prefix": "",
+    "selector": "",
+    "skipImport": false,
+    "spec": false,
+    "styleext": "css",
+    "viewEncapsulation": "Emulated"
+  },
+  "@schematics/angular:module": {
+    "commonModule": true,
+    "flat": false,
+    "module": "",
+    "routing": false,
+    "routingScope": "Child",
+    "spec": false
+  },
+  "@schematics/angular:service": {
+    "flat": true,
+    "spec": false
+  },
+  "@schematics/angular:pipe": {
+    "export": false,
+    "flat": true,
+    "module": "",
+    "skipImport": false,
+    "spec": false
+  },
+  "@schematics/angular:directive": {
+    "export": false,
+    "flat": true,
+    "module": "",
+    "prefix": "app",
+    "selector": "",
+    "skipImport": false,
+    "spec": false
+  },
+  "@schematics/angular:class": {
+    "spec": false
+  }
+}
+}
